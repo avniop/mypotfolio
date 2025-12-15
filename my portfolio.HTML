@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing Page</title>
+        <style>
+            body {
+                text-align: center;
+            }
+            nav {
+                background-color: blueviolet;
+                padding: 10px;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            li a:hover {
+                background-color: aquamarine;
+            }
+            li {
+                float: left;
+            }
+#anime-info {
+    font-size: 40px;
+}
+        </style>
+        
+    </head>
+        <body>
+            <nav>
+                <ul>
+                    <li><a href="my portfolio.HTML">Home</a></li>
+                    <li><a href="about.HTML">about</a></li>
+                    <li><a href="contact.HTML">contact</a></li>
+                </ul>
+            </nav>
+            <h2>
+                Interesting information!!!
+            </h2>
+            <img src="c:\Users\priyanka\Desktop\Avni\Avni_5A\hello Anime world\Anime girl 6.jpg">
+            <button onclick="anime()">Read more!!!</button>
+            <p id="anime-info"></p>
+            <script>
+                function anime() {
+                    document.getElementById("anime-info").innerHTML =
+                    "Anime is a distinctive style of animation originating from Japan, characterized by vibrant, colorful graphics, expressive characters (often with large eyes), and a wide range of genres, from fantasy and sci-fi to slice-of-life, telling complex stories that often reflect Japanese culture, though in Japan the word refers to all animation, regardless of origin";
+                
+                }
+            </script>
+        </body>
+        
+</html>
